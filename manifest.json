@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Gerador de Documentos (CNPJ, CPF, CNH e RG)",
 	"version": "1.0.0",
-	"description": "Gera CNPJ, CPF, CNH e RG válidos para testes em aplicações. Ao clicar no ícone da extensão, um documento válido é gerado e copiado para a área de transferência automaticamente.",
+	"description": "Gera CNPJ, CPF, CNH e RG válidos para testes em aplicações. Documento gerado é copiado para a área de transferência.",
 	"author": "Victor Ozoterio",
 	"icons": {
 		"16": "assets/images/logo-16.png",
