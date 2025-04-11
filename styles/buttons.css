@@ -1,0 +1,25 @@
+.button-group {
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	gap: 12px 16px;
+	justify-content: center;
+	margin-top: 24px;
+}
+
+.button-group button {
+	background-color: #4a90e2;
+	color: white;
+	padding: 12px 24px;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: bold;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+	transition: background-color 0.3s;
+	min-width: 100px;
+}
+
+.button-group button:hover {
+	background-color: #357bd8;
+}

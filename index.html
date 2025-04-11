@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Documentos</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <div id="toast">Copiado para a área de transferência</div>
+
+    <input type="text" id="display" readonly />
+
+    <div class="checkbox-container">
+      <label> <input type="checkbox" id="use-mask" /> Utilizar máscara </label>
+    </div>
+
+    <div class="button-group">
+      <button id="btn-cnpj">CNPJ</button>
+      <button id="btn-cpf">CPF</button>
+      <button id="btn-cnh">CNH</button>
+      <button id="btn-rg">RG</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
